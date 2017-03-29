@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-09 14:05:30
+ * @version $Id$
+ */
+
+#box{
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  background-color: grey;
+  
+}
+#box1{
+  position: relative;
+  top: 20px;
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  background-color: grey;
+}
+#box2{
+  position: relative;
+  top: 40px;
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  background-color: grey;
+}
+#box3{
+  position: relative;
+  top: 40px;
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  background-color: grey;
+}
+#box4{
+  position: relative;
+  top: 40px;
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  background-color: grey;
+}
+#box5{
+  position: relative;
+  top: 40px;
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  background-color: grey;
+}
