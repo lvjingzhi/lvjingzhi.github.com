@@ -115,6 +115,10 @@
     height: 100%;
     width: 0;
   }
+  .table:hover
+  {
+  	background-color:white;
+  }
 .u1{
 	display: block;
 	position:relative;
