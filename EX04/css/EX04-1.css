@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-07 08:34:34
+ * @version $Id$
+ */
+.u-box{
+	display: flex;
+	width: 800px;
+	height: 600px;
+	background-color: #cdd3f5;
+	border: 1px solid black;
+	flex-direction: column;
+}
+.u-subbox1{
+	display: flex;
+	width: 760px;
+	height: 120px;
+	margin: 20px;
+	background-color: #99bd90;
+	border: 1px solid black;
+	flex-direction: row;
+}
+.u-subbox2{
+	display: flex;
+ 
+	width: 760px;
+	height: 420px;
+	margin: 20px;
+	margin-top: 0px;
+	background-color: #99bd90;
+	border: 1px solid black;
+}
+
+.u-subbox1-item1{
+	display: flex;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	background-color: #cdd3f5;
+	border: 1px solid black;
+
+}
+.u-subbox1-item2{
+	display: flex;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	margin-left: 180px;
+	background-color: #cdd3f5;
+	border: 1px solid black;
+
+}
+.u-subbox2-left-item1{
+	display: flex;
+	width: 200px;
+	height: 299px;
+	margin: 20px;
+	background-color: #cdd3f5;
+	border: solid black;
+	border-width: thin;
+}
+.u-subbox2-left-item2{
+	display: flex;
+	width: 49px;
+	height: 49px;
+	margin-left: 20px;
+	margin-top: 0px;
+	
+	background-color: #cdd3f5;
+	border: solid black;
+	border-width: thin;
+}
+.u-subbox2-left-item3{
+	display: flex;
+	width: 49px;
+	height: 49px;
+	margin-left: 25px;
+	margin-top: 0px;
+	
+	background-color: #cdd3f5;
+	border: solid black;
+	border-width: thin;
+}
+.u-subbox2-left{
+	display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    height: 406px;
+}
+.u-subbox2-right{
+	margin:20px;
+	flex-direction:row;
+	flex-wrap:wrap; 
+}
+.u-subbox2-right-item1{
+	width: 480px;
+	height: 40px;
+	background-color: #cdd3f5;
+	border: solid black;
+	border-width: thin;
+}
+.u-subbox2-right-item2{
+	width: 480px;
+	height: 40px;
+	margin-top: 16.1px;
+	background-color: #cdd3f5;
+	border: solid black;
+	border-width: thin;
+}
+div{
+	box-sizing: border-box;
+	display: block;
+}
