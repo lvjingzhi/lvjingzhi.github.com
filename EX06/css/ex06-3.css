@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-23 20:00:58
+ * @version $Id$
+ */
+div{
+    display: flex;
+    box-sizing: border-box;
+}
+p{
+    margin: 0px;
+    font-size: 10px;
+}
+.ul{
+    width: 300px;
+    height:400px;
+    justify-content: center;
+    padding-top: 20px;
+    border: solid thin black;
+    flex-wrap: wrap;
+}
+.ul-connent{
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.ul-connent-ele{
+    margin-top: 10px;
+    border: solid thin black;
+    height: 20px;
+    width: 350px;
+}
+.connent-ele-ord
+{
+    width:40px;
+    font-size: 15px;
+    justify-content: center;
+    border-right: solid thin black;
+}
+.connent-ele-grow{
+    flex-grow: 1;
+}
+.connent-ele-del{
+    border-left: solid thin black;
+}
+.connent-ele-del:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.ul-grow{
+    align-self: flex-end;
+    flex-grow: 1;
+}
+.ul-btn{
+	position: absolute;
+    margin: 10px;
+    width: 50px;
+    height: 20px;
+    left: 300px;
+    background-color: white;
+    color:black;
+    border: solid 2px gray;
+    font-weight: bold;
+    align-self: flex-end;
+    align-content: center;
+    justify-content: center;
+}
+.ul-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}

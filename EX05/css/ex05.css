@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-21 11:44:07
+ * @version $Id$
+ */
+.ui-nav-main {
+	background: -webkit-linear-gradient(top,#208bc6,#208bc6);
+}
+.ui-nav-ti-wei{
+	width: 76px;
+}
+.ui-nav-son-center{
+	margin:auto;
+}

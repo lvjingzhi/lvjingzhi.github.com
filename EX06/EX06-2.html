@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="css/ex06-2.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+$(init);
+function init() {
+    $(".box-content").hide();
+    $(".top").click(function (e) {
+        if (e.target.classList == "top-bottom") {
+            $(".box").children().hide();
+            $(".top").children().css("background-color", "transparent");
+            var IN = $(e.target).index();
+            $(".box-content").eq(IN).show();
+            $(e.target).css("background-color", "#c0c0c0");
+        }
+    })
+}
+ </script>
+</head>
+<body>
+    <div class="top">
+    <div class="top-bottom"></div>
+    <div class="top-bottom"></div>
+    <div class="top-bottom"></div>
+</div>
+<div class="box">
+    <li class="box-content">one</li>
+    <li class="box-content">two</li>
+    <li class="box-content">three</li>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-23 19:45:18
+ * @version $Id$
+ */
+div{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.top{
+    width: 500px;
+    height: 25px;
+    border: thin solid gainsboro;
+}
+.top-bottom{
+    width: 80px;
+    height: 25px;
+    border: thin gainsboro;
+    border-right-style: solid;
+    color: #c0c0c0;
+}
+.box{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    border: solid thin gainsboro;
+    border-top:none;
+}
+.box-content{
+    width: 500px;
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight:bold;
+    color: #808080;
+}

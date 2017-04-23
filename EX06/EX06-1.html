@@ -6,27 +6,44 @@
 <title>Examples</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
-<link href="" rel="stylesheet">
+<link href="css/ex06-1.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 <script type="text/javascript">
-     $(function(){
-                $("#img1").click(function(){
-                    var width = $(this).width();
-                    if(width==100)
-                    {
-                        $(this).width(200);
-                        $(this).height(300);
-                    }
-                    else
-                    {
-                        $(this).width(100);
-                        $(this).height(150);
-                    }
-                });
-            });
+$(init);
+
+function init() {
+    $(".filter").hide();
+    $(".big_pic").hide();
+
+    $(".container").click(function (e) {
+        $(".big_pic").attr("src", e.target.src);
+        $(".big_pic").fadeIn();
+        $(".filter").fadeIn();
+
+        $(".filter").click(function () {
+            $(".filter").fadeOut();
+            $(".big_pic").fadeOut();
+        }
+        )
+    }
+    )
+}
  </script>
 </head>
 <body>
-   <img id="img1" src="11.jpg" style="width:100px;height:150px" alt="" />
+<div class="filter"></div>
+<img src="pic/01.jpg" alt="" class="big_pic">
+<div class="container">
+    <img src="pic/01.jpg" alt="01" class="container-sml_pic">
+    <img src="pic/02.jpg" alt="02" class="container-sml_pic">
+    <img src="pic/03.jpg" alt="03" class="container-sml_pic">
+    <img src="pic/04.jpg" alt="04" class="container-sml_pic">
+    <img src="pic/05.jpg" alt="05" class="container-sml_pic">
+    <img src="pic/06.jpg" alt="06" class="container-sml_pic">
+    <img src="pic/07.jpg" alt="07" class="container-sml_pic">
+    <img src="pic/08.jpg" alt="08" class="container-sml_pic">
+    <img src="pic/09.jpg" alt="09" class="container-sml_pic">
+    <img src="pic/10.jpg" alt="10" class="container-sml_pic">
+</div>
 </body>
 </html>
