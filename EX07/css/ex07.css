@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-28 08:41:00
+ * @version $Id$
+ */
+.bgcolor-green{
+	background-color: #00c2af;
+}
+.hw-search{
+	height: 49px;
+	display: flex;
+ align-items: center;
+justify-content: center;
+}
+.hw-search-select{
+	height: 20px;
+	border: none;
+	color: white;
+	
+}
+.bgcolor-deepgreen{
+	background-color: #00A695;
+}
+.hw-search-input{
+	height: 30px;
+	border: none;
+	color: #00c2af;
+}
+.hw-search-icon{
+	margin-top: 12px;
+	margin-left: 10px;
+	display: flex;
+	flex-wrap:wrap;
+	width: 20px;
+	color: white;
+}

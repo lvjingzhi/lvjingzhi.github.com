@@ -14,3 +14,90 @@
 .ui-nav-son-center{
 	margin:auto;
 }
+div {
+    box-sizing: border-box;
+    display: flex;
+}
+.ui-nav {
+	position: relative;
+	height: 35px;
+    border-bottom: solid 5px #1a87c4;
+}
+.ui-nav-box{
+    width: 100px;
+    height: 35px;
+    background: linear-gradient(#3c9bd0 0%, #1a87c4 100%);
+    border-radius: 5px 5px 0 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.rongqi{
+	width: 660px;
+}
+.ui-nav-time{
+	width: 25px;
+	height: 25px;
+	margin-left: 5px;
+	background: linear-gradient(#fc7a13 0%, #ff3c02 100%);
+	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+}
+.ui-under{
+	height: 65px;
+	background-color: #f9fafa;
+	border: solid thin #d7d7d7;
+	flex-wrap: wrap;
+}
+.ui-under-time{
+
+}
+.ui-top-row{
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.ui-top-row-first-t{
+	color: #cf0000;
+	font-weight: bold;
+}
+.color-red{
+	color: #cf0000;
+}
+.color-black{
+	color: black;
+}
+.ui-top-row-first-p{
+	margin-left :30px; 
+}
+.t2{
+	margin-left :10px;
+	font-weight: bold;
+}
+.ui-bottom-row{
+	height: 25px;
+	margin-bottom: 10px;
+}
+.ui-bottom-row-t{
+	margin-left :10px;
+	margin-right :10px;
+}
+.ui-bottom{
+	height: 30px;
+    background-color: #fffbde;
+    border: solid thin #d7d7d7;
+    border-top: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+.kong
+{
+	margin-right: 10px;
+}
+.ui-biaoqian{
+	height: 20px;
+}
