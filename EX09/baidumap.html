@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hello, World</title>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=cDN1bBbx0G0TgUtaaOou9k9qji8KLgZ5"></script>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <link href="css/ex09.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+	<div id="myMap"></div>
+  <div id="driving_way">
+    <select>
+      <option value="0">最少时间</option>
+      <option value="1">最少换乘</option>
+      <option value="2">最少步行</option>
+      <option value="3">不乘地铁</option>
+    </select>
+    <input type="button" id="result" value="查询"/>
+  </div>
+  <div id="r-result">
+    <input type="button" value="批量地址解析" onclick="bdGEO()" />
+    <div id="result"></div>
+  </div>
+  <script type="text/javascript" src="js/09js.js"></script>
+    
+  </body>
+</html>
